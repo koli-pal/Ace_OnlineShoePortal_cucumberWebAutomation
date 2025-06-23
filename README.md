@@ -1,10 +1,10 @@
 # Ace_OnlineShoePortal_cucumberWebAutomation
 
-## 🚀 Overview
+## Overview
 
 This project is a **Cucumber-based automation framework** using **Selenium and TestNG** for testing the Ace Online Shoe Portal (https://anupdamoda.github.io/AceOnlineShoePortal/SignIn.html).
 
-## 🔧 Tech Stack
+## Tech Stack
 
 * **Cucumber** (v7.2.3)
 * **Selenium WebDriver** (v4.17.0)
@@ -56,7 +56,7 @@ AceOnlineShoePortal/
 
 ---
 
-## 👀 Features Covered
+## Features Covered
 
 * 📄 Login Page Validation
 * 📄 New User Registration Page
@@ -66,7 +66,7 @@ AceOnlineShoePortal/
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### ✅ Prerequisites
 
@@ -77,13 +77,13 @@ Make sure the following tools are installed:
 * Allure Commandline (`npm install -g allure-commandline`)
 * An IDE like IntelliJ IDEA
 
-### 📦 Install Dependencies
+###  Install Dependencies
 
 ```bash
 mvn clean install
 ```
 
-### 📆 Run Tests
+###  Run Tests
 
 ```bash
 mvn test
@@ -95,7 +95,7 @@ Or specify a browser:
 mvn test -Dbrowser=Firefox
 ```
 
-### 📊 Generate Allure Report
+### Generate Allure Report
 
 ```bash
 allure serve allure-results
@@ -103,7 +103,7 @@ allure serve allure-results
 
 ---
 
-## 🌐 Sample Feature: Login
+## Sample Feature: Login
 
 ```gherkin
 Feature: Login Functionality
@@ -122,7 +122,7 @@ Feature: Login Functionality
     And password "SandyPass@123" is entered
     And the login button is clicked
 ```
-## 🌐 Sample Feature: Registration
+##  Sample Feature: Registration
 ```gherkin
 Feature: User Registration Functionality
 
@@ -141,7 +141,7 @@ Feature: User Registration Functionality
 ```
 ---
 
-## 📚 Key Concepts Used
+## Key Concepts Used
 
 * **Page Object Model (POM)** to keep locators and logic clean
 * **ThreadLocal WebDriver** for safe parallel execution
@@ -149,7 +149,7 @@ Feature: User Registration Functionality
 
 ---
 
-## 📅 Allure Report Screenshots
+##  Allure Report Screenshots
 ![Screenshot 2025-06-09 211021](https://github.com/user-attachments/assets/fd7e8a45-dc0f-461d-a301-c4fc777211b0)
 ![Screenshot 2025-06-09 210846](https://github.com/user-attachments/assets/2edf53bf-34c4-4834-9c22-5c8ac5d97e45)
 ![Screenshot 2025-06-09 210948](https://github.com/user-attachments/assets/7e917664-a4da-49c9-856b-0181ec9da95f)
