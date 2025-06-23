@@ -48,7 +48,7 @@ AceOnlineShoePortal/
 │           │
 │           └── utilities/                
 │               ├── DriverSetup.java        
-│               └── AppConstants.java      
+│                    
 │                                                
 ├── pom.xml                                
 └── README.md                              
